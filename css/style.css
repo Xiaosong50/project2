@@ -35,9 +35,14 @@ h1 {
   text-align: center;
   font-size: 50px;
 }
-#game h2 {
+h2 {
+  color: rgb(240,124,124);
   font-size: 30px;
 }
 strong {
   font-weight: 700;
 }
+
+
+
+
