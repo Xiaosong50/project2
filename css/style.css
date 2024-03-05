@@ -1,10 +1,13 @@
 html {
-    background-color: gray;
+    background-color: rgb(222,235,247);
 }
 body {
-  margin: 50px 200px;
-  padding: 50px;
-  border: solid 2px green;
+  min-width: 900px;
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 50px 50px 10px 50px;
+  border: solid 4px rgb(248,203,173);
+  border-radius: 20px;
   background-color: rgb(218,244,200);
   font-size: 20px;
   font-family:"Nunito", sans-serif;
@@ -14,6 +17,8 @@ header {
   width: 100%;
   font-size: 30px;
   background-color: black;
+  border:solid 4px green;
+  border-radius: 10px;
 }
 header nav ul {
   list-style-type: none;
@@ -33,30 +38,86 @@ header nav ul li a {
 	display: block;
 	text-decoration: none;
 	color: #ccc;
+  border:solid 4px black;
 }
 header nav ul li a:hover {
   background-color: #ccc;
 	color: black;
+  border-radius: 10px;
 }
 h1 {
   text-align: center;
   font-size: 50px;
+  margin: 100px auto 30px;
 }
- h2 {
+#sum_hb {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+h2 {
   color: rgb(240,124,124);
   font-size: 30px;
 }
+section {
+  min-width: 800px;
+  max-width: 1050px;
+  margin:10px auto 10px;
+  padding:20px;
+  border: solid 4px rgb(189,215,238);
+  border-radius: 10px;
+  background-color: rgb(248,203,173);
+}
 strong {
-  font-weight: 700;
+  font-weight: 600;
+}
+#game strong {
+  font-size: 25px;
+  color: rgb();
 }
 img, iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius:20px;
+  width:80%;
 }
-
+#pic_dsn {
+  display: flex;
+  justify-content: center;
+}
+#pic_dsn img {
+  width: 45%;
+  margin: 10px;
+}
+a {
+  color: rgb(134,51,157);
+  text-decoration: none;
+  font-weight: 600;
+}
+a:hover {
+  color: red;
+  
+}
+#pinfor img {
+  border-radius: 50%;
+  width: 30%;
+}
+table {
+  margin: 20px auto;
+  border: solid 2px black;
+  border-radius: 15px;
+  border-color: rgb(218,244,200);
+}
+td {
+  border: solid 2px black;
+  height: 50px;
+  border-radius: 15px;
+  border-color: rgb(218,244,200);
+}
 footer {
   text-align: center;
+  margin: 50px auto 5px;
 }
 
 
