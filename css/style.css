@@ -1,4 +1,10 @@
+html {
+    background-color: gray;
+}
 body {
+  margin: 50px 200px;
+  padding: 50px;
+  border: solid 2px green;
   background-color: rgb(218,244,200);
   font-size: 20px;
   font-family:"Nunito", sans-serif;
@@ -6,6 +12,7 @@ body {
 header {
   float: left;
   width: 100%;
+  font-size: 30px;
   background-color: black;
 }
 header nav ul {
@@ -35,14 +42,22 @@ h1 {
   text-align: center;
   font-size: 50px;
 }
-#game h2 {
+ h2 {
   color: rgb(240,124,124);
   font-size: 30px;
 }
 strong {
   font-weight: 700;
 }
+img, iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+footer {
+  text-align: center;
+}
 
 
 
