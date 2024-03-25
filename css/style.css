@@ -119,13 +119,13 @@ a:hover {
   clear: left;
   float: left;
   position: relative;
-  left: 160px;
+  left: 10%;
 }
 .rightfex {
   clear: right;
   float: right;
   position: relative;
-  right: 160px;
+  right: 10%;
 }
 .resume_block img {
   border-radius: 50%;
@@ -135,19 +135,6 @@ a:hover {
   content: ' ';
   display: block;
   clear: both;
-}
-
-table {
-  margin: 20px auto;
-  border-collapse: separate;
-  border-spacing: 2px;
-  border: solid 2px rgb(218,244,200);
-  border-radius: 15px;
-}
-td {
-  border: solid 2px rgb(218,244,200);
-  height: 50px;
-  border-radius: 15px;
 }
 p {
   margin:10px;
